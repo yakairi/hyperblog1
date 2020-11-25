@@ -2,7 +2,8 @@ body
 {
     color:#333;
     text-align: left;
-    font-family: courier;
+    font-family: Arial;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +17,14 @@ body
     margin: 0;
     padding: 0.5em;
 }   
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container
 {
     width: 70%;
@@ -25,16 +34,12 @@ body
     margin: 0 auto;
 }
 
-#cabecera #tagline
-{
-    padding: 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.8em;
-}
-
 #container h1
 {
     font-size: 70px;
-
-}   
+} 
+#post 
+{
+    padding: 1em;
+} 
         
